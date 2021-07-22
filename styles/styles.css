@@ -1,4 +1,9 @@
 /*Font*/
+
+@font-face {
+font-family: "pin";
+src: url("fonts/pin.otf") format("opentype");
+}
 @font-face {
 font-family: "kiros";
 src: url("fonts/Kiros.ttf") format("truetype");
