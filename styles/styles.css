@@ -120,6 +120,11 @@ html{
 	scroll-behavior: smooth;
 }
 
+.navbar ul li a{
+	font-family: jiret;
+
+}
+
 
 .cls {
 	text-decoration: none;
@@ -378,14 +383,16 @@ html{
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+
 }
+
 
 .row{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	box-sizing: border-box;	
-	padding: 0 10% 0 10%;
+	padding: 0 8% 0 10%;
 	flex-wrap: wrap; 
 }
 
@@ -401,21 +408,32 @@ html{
 	text-align: justify;
 	padding: 10px;
 	border-radius: 15px;
-	background: linear-gradient(to top, #3c3a38 50%, #264653  100%);
-	/*background-image: url(../images/new/des24.jpg);*/
-	background-size: 100% 150%;
-	color: #dfeaec;
+	/*background: linear-gradient(to top, #3c3a38 50%, #264653  100%);*/
+	background-image: url(../images/op.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-size: 100% 150%;*/
+	/*color: #dfeaec;*/
+	color: #171614;
 	transition: all .8s; 
 }
 
 
 .box:hover{
-	background-position: left bottom;
-	color: #d2b874;
+	/*background-position: left bottom;*/
+	/*color: #171614;*/
 	/*color: #c5c3ba;*/
 	border: none;
-	box-shadow: 0 0 20px #082c6c
+	box-shadow: 0 0 20px #082c6c;
+	
 
+}
+.box:hover .headings{
+	color: #bf8040;
+	font-weight: 200;
+	text-shadow: 2px 2px 15px #FCF6BA;
+	transition: ease .8s;
+	
 }
 
 
@@ -519,15 +537,34 @@ html{
 
 #coins{
 	border-radius: 50%;
+	width: 50%;
+
+}
+
+
+
+.box:hover #coins{
+	animation: spin 3s infinite;
+	transform: all 5s;
+
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 
 
 
-
-
-
-
+/* Toggler  */
+#nav-toggler{
+	display: none;
+}
 
 
 

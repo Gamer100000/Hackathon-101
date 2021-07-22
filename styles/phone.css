@@ -47,3 +47,28 @@
 .row{
 	padding: 0;
 }
+
+#coins {
+	width: 50%;
+}
+
+.navbar{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.5);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar ul{
+	padding: 6% 0% 0 4%;
+}
+
+#nav-toggler{
+	cursor: pointer;
+	font-size: 200%;
+	padding: 2%;
+}

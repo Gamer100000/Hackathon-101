@@ -1,8 +1,16 @@
 /* NavBar*/
 
 .navbar ul{
+	display: none;
 	flex-wrap: wrap;
 	justify-content: center;
+	text-align: left;
+	width: 100%;
+}
+.navbar ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
 }
 
 /* Headings */
@@ -43,3 +51,63 @@
 	width: 20%;
 
 }
+
+.box{
+	width: 40%;
+	height: 40%;
+}
+
+.box .headings{
+	font-size: 160%;
+}
+
+.box .cls{
+	font-size: 3em;
+}
+
+#coins {
+	width: 50%;
+
+}
+
+.box:hover{
+	/*background-position: left bottom;*/
+	/*color: #171614;*/
+	/*color: #c5c3ba;*/
+	border: none;
+	box-shadow: 0 0 20px #082c6c;
+	
+
+}
+.box:hover .headings{
+	color: #bf8040;
+	font-weight: 200;
+	text-shadow: 2px 2px 15px #FCF6BA;
+	transition: ease .8s;
+	
+}
+
+
+.navbar{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0,0,0,0.5);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar ul{
+	padding: 6% 0% 0 4%;
+
+}
+
+#nav-toggler{
+	cursor: pointer;
+	font-size: 200%;
+	padding: 2%;
+	display: block;
+}
+

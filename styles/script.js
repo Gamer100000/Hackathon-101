@@ -24,3 +24,22 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+function nav_togle() {
+  // body...
+  var toggle = document.getElementById('nav');
+  if (toggle.style.display == "block"){
+    toggle.style.display = "none";
+  }
+  else{
+  toggle.style.display = "block";
+    
+  }
+
+ 
+
+
+
+}
