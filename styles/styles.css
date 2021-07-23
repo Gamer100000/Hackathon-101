@@ -253,11 +253,13 @@ html{
 
 .btn{
 	padding: 10px 5px;
+	border-radius: 5px;
 	background-color: transparent;
 	border: 1px solid white;
 	color: white;
 	outline: none;
 	transition: .6s ease;
+	font-family: pin;
 }
 
 .btn:hover {
@@ -328,21 +330,19 @@ html{
 }
 
 
-#pic{
+.pic{
 	display: flex;
 
 }
 
-#pic img{
-	width: 30%;
-	height: 30%;
-}
 
 #intro{
 	display: flex;
 	flex-direction: column;
 	text-align: justify;
-	padding: 10px;
+	font-size: 30px;
+	text-align: center; 
+	padding: 0 20% 0 20%; 
 
 }
 
@@ -353,6 +353,29 @@ html{
 
 }
 
+
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	font-size: 130%;
+	text-align: center; 
+	padding: 0; 
+
+}
+
+.intro h2{
+
+	font-size: 2rem;
+	margin-bottom: 20px;
+
+}
+
+#gmail{
+	font-family: yeshuah;
+	font-size: 30px;
+}
 
 /* Portfolio section */
 
@@ -722,6 +745,49 @@ img {vertical-align: middle;}
 
 
 
+.container {
+
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+} 
+
+.container form{
+	background-color: #1a1a1a;
+	justify-content: center;
+	font-family: pin;
+	border: .5px solid white;
+	border-radius: 10px;
+	padding: 2px;
+}
+.container form:hover{
+		box-shadow: 0 0 5px red, 0 0 10px yellow;, 0 0 15px white;
+
+}
+
+#message{
+	width: 95%;
+	height: 100%;
+	margin: 2px;
+	border-style: none;
+}
+
+#email{
+	width: 90%;
+	margin: 4px;
+	border-style: none;
+}
+
+.fm{
+	background-color: white;
+	border-radius: 10px;
+	border: 2px gold solid;
+	margin-top: 3%;
+	overflow: hidden;
+	color: black;
+	display: flex;
+}
 
 
 

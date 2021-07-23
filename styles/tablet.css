@@ -20,14 +20,19 @@
 
 /* About */
 
-#pic{
+.pic{
 	flex-direction: column;
 	align-items: center;
 }
 
-#pic img{
-	width: 80%;
+.pic img{
+	width: 20%;
 	height: auto;
+}
+
+#intro{
+	font-size: 25px;
+	padding: 2%;
 }
 
 #intro h2{
@@ -35,7 +40,15 @@
 	padding: 10px;
 
 }
+.intro{
+	font-size: 100%;
+	padding: 2%;
+}
 
+
+#gmail{
+	font-size: 20px;
+}
 /* Contact */
 
 .input{
@@ -102,6 +115,10 @@
 .navbar ul{
 	padding: 6% 0% 0 4%;
 
+}
+
+.navbar ul li{
+	width: 100%;
 }
 
 #nav-toggler{

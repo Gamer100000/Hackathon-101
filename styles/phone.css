@@ -13,14 +13,28 @@
 
 /* About */
 
-#pic img{
-	width: 300px;
+.pic img{
+	width: 50%;
 	height: auto;	
+}
+
+#intro {
+	font-size: 1.1rem;
+	padding: 2%;
+
 }
 
 #intro h2{
 	font-size: 1.5rem;
 }
+
+
+.intro{
+	font-size: 100%;
+	padding: 2%;
+}
+
+
 
 
 /* Portfolio */

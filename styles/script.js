@@ -1,4 +1,4 @@
-var slideIndex = 1;
+var slideIndex = 2;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -35,7 +35,7 @@ function nav_togle() {
   }
   else{
   toggle.style.display = "block";
-    
+
   }
 
  
