@@ -1,7 +1,7 @@
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=gamer100000&label=Profile%20views&color=0e75b6&style=flat" alt="gamer100000" /> </p>
 
 <h1 align="center">
-  <img align="center" src="github.gif" width="25%" alt="gamer100000" /><br>
+  
   Yonathan Assefa</h1>
 <h3 align="center"> <img align="center" src="github(1).gif" width="20%" alt="gamer100000" /> 
 <br>
